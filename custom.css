@@ -1,0 +1,79 @@
+//css file for IIIT Sonepat
+#header{
+    background-color:  rgba(213, 213, 213, 0.2);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    background-color: rgba(213, 213, 213, 0.5);
+}
+#jumbobody{
+    background-color:rgb(75, 78, 78);
+    font-family: 'Raleway';
+    color: thistle;
+    padding: 2%;
+    
+}
+#heading{
+    color:black;
+    font-family: 'Bree Serif';
+    font-weight: 200;
+    text-decoration: underline;
+    
+}
+.subheading{
+    margin-left:5%;
+    margin-top: 5%;
+}
+.para{
+    margin-left: 5%;
+    font-size: 18px;
+    font-family: 'Jaldi';
+}
+.packagechart{
+    width: 60%;
+    margin: auto;
+}
+.newheading{
+    color:black;
+    font-family: 'Bree Serif';
+    font-weight: 200;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 6%;
+}
+.para2{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Jaldi';
+
+
+}
+.growthchart{
+    width: 60%;
+    margin: auto;
+}
+#icon{
+    display: inline;
+    font-size: 40px;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: bottom;
+    margin-left: 48%;
+}
+#heading1{
+    margin-top: 5%;
+    color:black;
+    font-family: 'Bree Serif';
+    font-weight: 200;
+    text-decoration: underline;
+    text-align: center;
+
+    
+}
+#doughnutchart{
+    margin: auto;
+    width: 50%;
+}
