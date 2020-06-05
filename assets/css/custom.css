@@ -261,3 +261,50 @@ font-size: 80px;
   vertical-align: middle;
 }
 
+<!---Css for Guwahati placement page-->
+#centered{
+    text-align: center;
+    padding: 18px;
+    font-weight:bold ;
+}
+
+#left{
+    text-align: left;
+    color:lightseagreen;
+    font-weight:bold ;
+    padding: 18px;
+
+
+}
+
+#centered1{
+    text-align: left;
+    padding: 15px;
+    font-weight:bold ;
+}
+#para1{
+    font-style: arial;
+}
+#left1{
+    text-align: left;
+    padding: 15px;
+    font-weight:bold ;
+}
+
+#para1{
+    /*border: 1px solid green;*/
+    padding-left: 20px;
+    font-style: arial;
+}
+
+#para2{
+    /*border: 1px solid green;*/
+    padding-left: 20px;
+    font-style: arial;
+}
+
+#para3{
+    /*border: 1px solid green;*/
+    padding-left: 20px;
+    font-style: arial;
+}
