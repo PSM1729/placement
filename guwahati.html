@@ -127,13 +127,13 @@
 		
 		<div class="container">
 							<!-- Add the image path relatiev to this html file-->
-				<img class = "center" src ="img/iiit_logo/guwahati.png" height="200px" width="200px"><br>
-		    <h1 id="centered" data-aos ="fade-up" data-aos-delay="100">Indian Institute of Information Technology Guwahati</h1>
-			<h2 id="place" 	data-aos ="fade-up" data-aos-delay="100">Placement Cell</h2>
-			<h3 id="left" data-aos ="fade-up" data-aos-delay="100">Our Past Figures</h3>
-			<h2 id="left1" data-aos ="fade-up" data-aos-delay="100"><u>Placement status of our batch</u></h2>
-    			<i id = "icon" class="fa fa-graduation-cap" aria-hidden="true"></i>	
-			<p id="para1" data-aos ="fade-up" data-aos-delay="100">
+		  <img class = "center" src ="img/iiit_logo/guwahati.png" height="200px" width="200px"><br>
+	  <h1 id="centered" data-aos ="fade-up" data-aos-delay="100">Indian Institute of Information Technology Guwahati</h1>
+	  <h2 id="place" data-aos ="fade-up" data-aos-delay="100">Placement Cell</h2>
+	  <h3 id="left" data-aos ="fade-up" data-aos-delay="100">Our Past Figures</h3>
+	  <h2 id="left1" data-aos ="fade-up" data-aos-delay="100"><u>Placement status of our batch</u></h2>
+    	  <i id = "icon" class="fa fa-graduation-cap" aria-hidden="true"></i>	
+          <p id="para1" data-aos ="fade-up" data-aos-delay="100">
 				
             IIIT Guwahati had a successful placement session during 2018-19. 
             Some of the companies where our students got placed are: 
@@ -148,8 +148,58 @@
             The students got offers from both on-campus and off-campus selection processes.<br>
             The statistics so far are:
 			</p>
+			<!---Kurnool Code---->
+			
+			 <canvas id="myChart" width="500" height="185%"></canvas>
+    <script>
+      var ctx = document.getElementById("myChart").getContext("2d");
+      var myChart = new Chart(ctx, {
+        type: "bar",
+        data: {
+          labels: [
+            "% placed",
+            "Tot. Student Registered",
+            "Tot. Jobs Offered",
+            "Tot. Students Selected",
+            "Avg.Pkg(LPA)",
+            "Hig.Pkg(LPA)",
+          ],
+          datasets: [
+            {
+              label: "IIIT Kurool Placement Details 2018-19",
+              data: [67.2, 67, 45, 45, 4.77, 10.5],
+              backgroundColor: [
+                "rgba(255, 99, 132, 0.8)",
+                "rgba(54, 162, 235, 0.8)",
+                "rgba(255, 206, 86, 0.8)",
+                "rgba(75, 192, 192, 0.8)",
+                "rgba(153, 102, 255, 0.8)",
+                "rgba(255, 159, 64, 0.8)",
+                "rgba(142,45,64,0.8)",
+              ],
+              borderColor: "rgb(255,255,255)",
+              borderWidth: 1,
+            },
+          ],
+        },
+        options: {
+        animation: {
+            duration: 3000, // general animation time
+        },
+        hover: {
+            animationDuration: 300, // duration of animations when hovering an item
+        },
+        responsiveAnimationDuration: 3000, // animation duration after a resize
+    },
+      });
+    </script>
+
+			
+			
+			
+			<!---Kurnool Code ends--->
         
-			<canvas id = "guwahati_place" ></canvas> 
+			<!--<canvas id = "guwahati_place" ></canvas> -->
 			<i id="icon" class="fa fa-bar-chart" aria-hidden="true"></i>
 			<!--<canvas id = "myChart2"></canvas>-->
         
@@ -212,7 +262,7 @@
                 Edubotics, Invento Makerspaces etc.
                 </p>
             </p>
-     <script src ="index.js"></script>
+    <!-- <script src ="index.js"></script> -->
 		</div>
 
 		
