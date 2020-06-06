@@ -274,8 +274,13 @@ font-size: 80px;
     color:lightseagreen;
     font-weight:bold ;
     padding: 18px;
+    text-size:20px;
+}
 
-
+#place{
+  text-align: left;
+  text-size:20px;
+  font-weight:bold ;
 }
 
 #centered1{
