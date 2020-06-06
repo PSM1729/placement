@@ -137,7 +137,7 @@
 })(jQuery);
 //JS file for IIIT  Guwahati placement
 
-
+/*
 let guwahati_placement = document.getElementById('guwahati_place').getContext('2d');
 
         Chart.defaults.global.defaultFontFamily= 'Lato';
