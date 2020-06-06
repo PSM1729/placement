@@ -264,7 +264,7 @@ font-size: 80px;
 /*Css for Guwahati placement page*/
 #centered{
     text-align: center;
-    padding: 18px;
+    padding: 24px;
     font-weight:bold ;
 }
 
@@ -307,6 +307,13 @@ font-size: 80px;
     /*border: 1px solid green;*/
     padding-left: 20px;
     font-style: arial;
+}
+
+.center{
+  
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 /*css file for IIIT sonepat*/
 #header{
