@@ -138,7 +138,7 @@
 //JS file for IIIT  Guwahati placement
 
 
-let guwahati_place = document.getElementById('guwahati_place').getContext('2d');
+let guwahati_placement = document.getElementById('guwahati_place').getContext('2d');
 
         Chart.defaults.global.defaultFontFamily= 'Lato';
         Chart.defaults.global.defaultFontSize= 18;
@@ -146,7 +146,7 @@ let guwahati_place = document.getElementById('guwahati_place').getContext('2d');
         
 
 
-        let secondbatch_g = new Chart(guwahati_place, {
+        let guwahati_place = new Chart( guwahati_placement , {
             type:'bar',
             data:{
                  
