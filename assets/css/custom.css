@@ -266,7 +266,7 @@ font-size: 80px;
     text-align: center;
     padding: 18px;
     font-weight:bold ;
-    font-size: 30px;
+    font-size:28px;
 }
 
 #left{
@@ -278,7 +278,7 @@ font-size: 80px;
 }
 
 #place{
-  text-align: left;
+  text-align: center;
   text-size:20px;
   font-weight:bold ;
 }
