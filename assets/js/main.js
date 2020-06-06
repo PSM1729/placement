@@ -138,7 +138,7 @@
 //JS file for IIIT  Guwahati placement
 
 
-let myChart1 = document.getElementById('myChart1').getContext('2d');
+let guwahati_place = document.getElementById('guwahati_place').getContext('2d');
 
         Chart.defaults.global.defaultFontFamily= 'Lato';
         Chart.defaults.global.defaultFontSize= 18;
@@ -146,7 +146,7 @@ let myChart1 = document.getElementById('myChart1').getContext('2d');
         
 
 
-        let secondBatch = new Chart(myChart1, {
+        let secondbatch_g = new Chart(guwahati_place, {
             type:'bar',
             data:{
                  
@@ -299,7 +299,7 @@ let myChart1 = document.getElementById('myChart1').getContext('2d');
             }
             }
         });
-
+/*
         let myChart2 = document.getElementById('myChart2').getContext('2d');
 
         Chart.defaults.global.defaultFontFamily= 'Lato';
@@ -742,3 +742,4 @@ var chart = new Chart(ctx, {
             }
          }
  });
+*/
