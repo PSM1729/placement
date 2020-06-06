@@ -273,7 +273,7 @@ let myChart1 = document.getElementById('myChart1').getContext('2d');
             duration: 3000, // general animation time
                 },
             hover: {
-            animationDuration: 300, // duration of animations when hovering an item
+            animationDuration: 3000, // duration of animations when hovering an item
         },
         responsiveAnimationDuration: 3000, 
                 title:{
