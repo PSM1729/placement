@@ -282,10 +282,11 @@ font-size: 80px;
     text-align: left;
     padding: 15px;
     font-weight:bold ;
+    font-size:19px;
 }
 #para1{
     font-style: arial;
-    font-size: 20px;
+    font-size: 19px;
 }
 #left1{
     text-align: left;
@@ -297,21 +298,21 @@ font-size: 80px;
     /*border: 1px solid green;*/
     padding-left: 20px;
     font-style: arial;
-    font-size: 20px;
+    font-size: 19px;
 }
 
 #para2{
     /*border: 1px solid green;*/
     padding-left: 20px;
     font-style: arial;
-    font-size: 24px;
+    font-size: 19px;
 }
 
 #para3{
     /*border: 1px solid green;*/
     padding-left: 20px;
     font-style: arial;
-    font-size: 24px;
+    font-size: 19px;
 }
 
 .center{
