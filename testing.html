@@ -15,8 +15,8 @@
     </script>
 	
     <!-- Title of your page: add the name of your IIIT-->
-    <title>Guwahati | Placement | IIITians Network</title>
-    <meta content="This is IIIT Guwahati Placement page of the community IIITians Network" name="descriptison">		<!--You have to update the name of your IIIT in both these lines -->
+    <title>Placement | IIITians Network</title>
+    <meta content="This is IIIT Placement page of the community IIITians Network" name="descriptison">		<!--You have to update the name of your IIIT in both these lines -->
     <meta content="IIITians Network - Placement" name="keywords">
 
     <!-- Favicons -->
@@ -55,17 +55,18 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     
-    <!-- Chart JS files -->
-    <link href="assets/vendor/chart.js/Chart.css" rel="stylesheet">
-    <link href="assets/vendor/chart.js/Chart.min.css" rel="stylesheet">
-	<script src="assets/vendor/chart.js/Chart.bundle.js" type="text/javascript"></script>
-	<script src="assets/vendor/chart.js/Chart.bundle.min.js" type="text/javascript"></script>
-	<script src="assets/vendor/chart.js/Chart.js" type="text/javascript"></script>
-	<script src="assets/vendor/chart.js/Chart.min.js" type="text/javascript"></script>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.6/Chart.bundle.min.js"></script>
-
+    <!--================================== STUDENT's LIFE CSS FILES =======================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/css/studentsLife.css">
+    <!--================================== STUDENT's LIFE CSS FILE END =======================================================-->
     
-   <!-- Loader Part start -->
+    <!--==================================Counter Up files ====================-->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+    integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+	
+    <!--==================================Counter Up files over ==============-->	
+		<!--================= Loader Part start ===============-->
 	    <style>
         .no-js #loader { display: none;  }
         .js #loader { display: block; position: absolute; left: 100px; top: 0; }
@@ -123,156 +124,13 @@
     </header><!-- End Header -->
 
     <main id="main">
-	  <section>	
 		<div class="container">
-			<div class="row">
-				
-			    <div class="col-lg-12 text-center">
-					<img src="img/iiit_logo/guwahati.png" height="150px" width="150px" data-aos="fade-up" data-aos-delay="100">
-				</div>
-				
-				<div class="col-lg-12 text-center">			
-					<h1 data-aos="fade-up" data-aos-delay="100">Indian Institute of Information Technology Guwahati<br><br></h1>
-				</div>
-				
-				<div class="col-lg-12 text-left">
-					<h2 data-aos="fade-up" data-aos-delay="100">Our Past Figures</h2>
-				</div>
-				
-				<div class="col-lg-6">	
-						<h3 class="text-left" data-aos="fade-up" data-aos-delay="100">Placement status of our batches<br></h3>
-						<p data-aos="fade-up" data-aos-delay="100" style="padding-left:10px; padding-right:10px">
-							IIIT Guwahati had a successful placement session during 2018-19. 
-							Some of the companies where our students got placed are: 
-							<b>Instahyre, Kuvera, Kirusa Tech, TCS, AlgomaMills, Cohesity, Wipro,
-							TechJect, IBM, Adapt Ideation, Nayan, Distill, Datakalp, StatWig, Antares,
-							EdgeTensor, Infotrust, Cerelabs, HumbleSchool, Vassar, Nagarro, ThoughtWorks,
-							Guavus, Aptude,</b> etc. The selection processes for some companies are
-							still going on. The universities where students have been selected 
-							for higher studies are University of New York, and National University
-							of Science, Singapore.
-
-							The students got offers from both on-campus and off-campus selection processes.<br>
-							The statistics so far are:
-						</p>
-				  </div>
-					 
-				  <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-						    <canvas id="myChart" width="100%"></canvas>
-								<script>
-									var ctx = document.getElementById("myChart").getContext("2d");
-										var myChart = new Chart(ctx, {
-										type: "bar",
-										data: {
-										labels: [
-											"% placed",
-											"Tot. Student Registered",
-											"Tot. Jobs Offered",
-											"Tot. Students Selected",
-											"Avg.Pkg(LPA)",
-											"Hig.Pkg(LPA)",
-											],
-											datasets: [
-											{
-											label: "IIIT Kurool Placement Details 2018-19",
-											data: [67.2, 67, 45, 45, 4.77, 10.5],
-											backgroundColor: [
-											"rgba(255, 99, 132, 0.8)",
-											"rgba(54, 162, 235, 0.8)",
-											"rgba(255, 206, 86, 0.8)",
-											"rgba(75, 192, 192, 0.8)",
-											"rgba(153, 102, 255, 0.8)",
-											"rgba(255, 159, 64, 0.8)",
-											"rgba(142,45,64,0.8)",
-											],
-											borderColor: "rgb(255,255,255)",
-											borderWidth: 1,
-											},
-											],
-										},
-									options: {
-										animation: {
-											duration: 3000, // general animation time
-											},
-											hover: {
-										animationDuration: 300, // duration of animations when hovering an item
-											},
-											responsiveAnimationDuration: 3000, // animation duration after a resize
-											},
-										});
-								</script>
-		     		</div>		
-			</div>  <!-- Row closed  -->
-		</div>		<!-- Container closed -->
-	</section>
-   </main>			
-						
-			
-			<!-- Set all the things correctly from here -->
-			
-						
-			<canvas id = "myChart1" ></canvas>        
-			<canvas id = "myChart2"></canvas>
-        
-			<h2 id="left1">Placement status of our batches</h2>
-        
-            <p id="para2">
-                IIIT Guwahati had a successful placement session during 2018-19. 
-                Some of the companies where our students got placed are: 
-                <b>Instahyre, Kuvera, Kirusa Tech, TCS, AlgomaMills, Cohesity, Wipro,
-                TechJect, IBM, Adapt Ideation, Nayan, Distill, Datakalp, StatWig, Antares,
-                EdgeTensor, Infotrust, Cerelabs, HumbleSchool, Vassar, Nagarro, ThoughtWorks,
-                Guavus, Aptude,</b> etc. The selection processes for some companies are
-                still going on. The universities where students have been selected 
-                for higher studies are University of New York, and National University
-                of Science, Singapore.
-    
-                The students got offers from both on-campus and off-campus selection processes.<br>
-                The statistics so far are:
-            </p>
-
-			<canvas id = "myChart3"></canvas>
-			<canvas id = "myChart4"></canvas>
-        
-			<h2 id="left1">Placement status of our batches</h2>
-        
-            <p id="para3">
-               <p id="para3">
-                During the placement session 2016-17, the companies which participated in our
-                campus placement process were Amazon, Directi, Smartprix, Nagarro, TCS, Zaloni,
-                IBM Global services, FR Technology, Mettl, and STAQU Technologies. The placement
-                status till June 2017 was as follows:
-
-                </p>
- 
-                <p id="para3">
-
-                - Number of students completed program: 54<br>
-                - Number of students opted for higher studies (PhD, MS, M.Tech, MBA): 6<br>
-                - Total students placed (through on-campus and off-campus recruitment): 30.<br>
-                - Percentage of students placed: <b>62.5%</b><br>
-                - Average salary of placed students is <b>5.64 LPA</b><br>
-                </p>
-
-                <p id="para3">
-                The prominent Institutions where students got admission for higher 
-                studies are: Carnegie Mellon University, University of Texas at Austin,
-                Harvard Medical School, University of Hildesheim Germany, IIT Dhanbad.
-                
-                </p>
-
-                <p id="para3">
-
-                After they left IIITG students of our first batch got selected in various 
-                companies, some of which are: IBM Research Lab, ABB, Egnify Technologies,
-                TCS, Pi Axis Technologies, Parallel Dots, Chatterbox Technologies, IQLECT,
-                Formcept, Tonbo Imaging, Mettl, 3N Technologies, Two Roads Technologies, 
-                UpGrad, Zaloni, Simplilearn, Radiance Academy, Silicon & Beyond, Technomate 
-                Edubotics, Invento Makerspaces etc.
-                </p>
-            </p>
-
+			<a href="guwahati.html">
+				<img data-aos="fade-up" src="img/iiit_logo/guwahati.png" style="height:250px; width:250px">
+			</a>
 		</div>
+	    
+    </main><!-- End #main -->
 
     <!-- ======= Footer ======= -->
     
@@ -394,7 +252,7 @@
 	
 	<!-- Custom JS files -->
 	<script src="assets/js/custom.js"></script>
-		
+	
 </body>
 
 </html>
