@@ -331,6 +331,10 @@ font-size: 80px;
 #icon{
   text-align: center;
 }
+
+img{
+  filter: drop-shadow(5px 5px 5px #222); 
+}
 /*css file for IIIT sonepat*/
 /*#header{
     background-color:  rgba(213, 213, 213, 0.2);
