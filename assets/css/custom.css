@@ -309,10 +309,11 @@ font-size: 80px;
 
 #para2{
     /*border: 1px solid green;*/
-    padding:20px 20px
+    padding:20px 20px;
     font-style: arial;
     font-size: 19px;
-    border: 2px solid blue;
+    border: 2px solid white;
+    margin: auto;
 }
 
 #para3{
