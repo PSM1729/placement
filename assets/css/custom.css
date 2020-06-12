@@ -315,6 +315,7 @@ font-size: 80px;
 
 #para3{
     /*border: 1px solid green;*/
+    margin: auto;
     padding-left: 20px;
     padding-right: 20px;
     font-style: arial;
@@ -334,7 +335,7 @@ font-size: 80px;
 
 img{
   filter: drop-shadow(5px 5px 5px #222); 
-  padding:18px;
+  padding:28px;
 }
 /*css file for IIIT sonepat*/
 /*#header{
