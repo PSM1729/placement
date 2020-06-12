@@ -290,10 +290,7 @@ font-size: 80px;
     font-weight:bold ;
     font-size:19px;
 }
-#para1{
-    font-style: arial;
-    font-size: 19px;
-}
+
 #left1{
     text-align: left;
     padding: 15px;
@@ -303,6 +300,7 @@ font-size: 80px;
 #para1{
     /*border: 1px solid green;*/
     padding-left: 20px;
+    padding-right: 20px;
     font-style: arial;
     font-size: 19px;
 }
@@ -310,6 +308,7 @@ font-size: 80px;
 #para2{
     /*border: 1px solid green;*/
     padding-left: 20px;
+    padding-right: 20px;
     font-style: arial;
     font-size: 19px;
 }
@@ -317,6 +316,7 @@ font-size: 80px;
 #para3{
     /*border: 1px solid green;*/
     padding-left: 20px;
+    padding-right: 20px;
     font-style: arial;
     font-size: 19px;
 }
@@ -334,6 +334,7 @@ font-size: 80px;
 
 img{
   filter: drop-shadow(5px 5px 5px #222); 
+  padding:18px;
 }
 /*css file for IIIT sonepat*/
 /*#header{
