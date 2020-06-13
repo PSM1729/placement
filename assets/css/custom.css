@@ -354,7 +354,8 @@ img{
 
 #icong{
   display: inline-block;
-  text-align: center;
+  margin-left: 25px;
+  font-size: large;
 }
 
 /*css file for IIIT sonepat*/
