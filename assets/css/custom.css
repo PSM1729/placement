@@ -309,20 +309,20 @@ font-size: 80px;
 
 #para2{
     /*border: 1px solid green;*/
-    padding:12px 30px;
+    padding:8px 36px;
     font-style: arial;
     font-size: 19px;
     border: 2px solid white;
-    margin: auto;
+   /* margin: auto; */
 }
 
 #para3{
     /*border: 1px solid green;*/
-    padding:12px 30px;
+    padding:8px 36px;
     font-style: arial;
     font-size: 19px;
     border: 2px solid white;
-    margin: auto;
+    /*margin: auto;*/
 }
 
 .center{
