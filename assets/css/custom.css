@@ -332,9 +332,6 @@ font-size: 80px;
   margin-right: auto;
 }
 
-#icon{
-  text-align: center;
-}
 
 img{
   filter: drop-shadow(5px 5px 5px rgb(194, 191, 191)); 
@@ -348,13 +345,16 @@ img{
 
 #sh2{
   font-size: 25px;
-  padding-left: 15px;
+  padding-left: 26px;
 }
 
 #sh1{
   font-size: 34px;
 }
 
+#icong{
+  text-align: center;
+}
 
 /*css file for IIIT sonepat*/
 /*#header{
