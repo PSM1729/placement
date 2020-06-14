@@ -329,6 +329,9 @@ img{
 
 hr.new1{
   border: 1px solid orange;
+  width:60%;
+  margin-left:20px;
+  
 }
 /*
 .jumbotron {
