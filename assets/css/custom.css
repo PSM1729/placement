@@ -269,28 +269,18 @@ font-size: 80px;
 
 #p{
     /*border: 1px solid green;*/
-    border: 1px solid white;
-    padding-left: 46px;
-    padding-right: 36px;
+   
     font-family: 'Merriweather Sans', sans-serif;
-    font-size: 19px;
-    margin-left: 20%;
+    font-size: 25px;
+    margin-left: 10%;
 }
-/*
-#para2{
-    /*border: 1px solid green;*/
-  /*  padding:8px 36px;
-    font-style: arial;
-    font-size: 19px;
-    border: 2px solid white;
-   /* margin: auto; */
-}
+
 
 
 
 .center{
   
- display: block;
+  display: block;
   margin-left: auto;
   margin-right: auto;
 }
@@ -307,14 +297,14 @@ img{
 }
 
 .subh{
-  font-size: 34px;
+  font-size: 36px;
   padding-left: 26px;
   padding-top: 24px;
   padding-bottom: 10px;
   text-shadow: 2px 2px 4px #c0b6b6;
   color: black;
   font-family: 'Open Sans', sans-serif;
-  margin-left: 16%;
+  margin-left: 4%;
 
 }
 
