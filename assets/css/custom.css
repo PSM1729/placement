@@ -320,12 +320,12 @@ img{
   font-size: 34px;
 }
 
-#icong{
+.icong{
   display: inline-block;
   /*margin-left: 25px;*/
   font-size: large;
   text-align: center;
-  margin: auto;
+  width: 100%;
 }
 
 /*css file for IIIT sonepat*/
