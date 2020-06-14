@@ -270,9 +270,9 @@ font-size: 80px;
 #para{
     /*border: 1px solid green;*/
     border: 1px solid white;
-    padding-left: 36px;
+    padding-left: 46px;
     padding-right: 36px;
-    font-style: arial;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 19px;
 }
 /*
@@ -308,7 +308,11 @@ img{
 #sh2{
   font-size: 28px;
   padding-left: 26px;
-  padding-top: 20px;
+  padding-top: 40px;
+  padding-top: 40px;
+  text-shadow: 2px 2px 4px #b8aaaa;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 #sh1{
@@ -317,8 +321,10 @@ img{
 
 #icong{
   display: inline-block;
-  margin-left: 25px;
+  /*margin-left: 25px;*/
   font-size: large;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 /*css file for IIIT sonepat*/
