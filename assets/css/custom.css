@@ -267,13 +267,14 @@ font-size: 80px;
 
 
 
-#para{
+#p{
     /*border: 1px solid green;*/
     border: 1px solid white;
     padding-left: 46px;
     padding-right: 36px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Merriweather Sans', sans-serif;
     font-size: 19px;
+    margin-left: 20%;
 }
 /*
 #para2{
@@ -306,18 +307,19 @@ img{
 }
 
 .subh{
-  font-size: 32px;
+  font-size: 34px;
   padding-left: 26px;
   padding-top: 24px;
   padding-bottom: 10px;
   text-shadow: 2px 2px 4px #c0b6b6;
   color: black;
   font-family: 'Open Sans', sans-serif;
+  margin-left: 16%;
 
 }
 
 #sh1{
-  font-size: 34px;
+  font-size: 38px;
 }
 
 /* #icong{
