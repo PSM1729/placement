@@ -295,7 +295,7 @@ img{
 
 #head1{
   text-shadow: 2px 2px 4px #b8aaaa;
-  color:black;
+  
   
 }
 
@@ -314,6 +314,23 @@ img{
 #sh1{
   font-size: 38px;
 }
+
+#jumbo{
+  background-image:url('https://img.collegepravesh.com/2018/12/IIIT-Guwahati.jpg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    filter: opacity(0.6);
+                    -webkit-filter:opacity(0.6); 
+                    background-position: center ;
+  margin-top:0px;
+}
+#head1{
+    color:#f5f5f5; 
+}
+#sh1{
+  color:#f5f5f5;
+}
+
 
 /* #icong{
   display: inline-block;
