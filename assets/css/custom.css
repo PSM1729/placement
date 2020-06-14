@@ -326,6 +326,10 @@ img{
                     background-position: center ;
                     
 }
+
+hr.new1{
+  border: 1px solid orange;
+}
 /*
 .jumbotron {
   position: relative; 
