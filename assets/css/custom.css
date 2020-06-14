@@ -322,10 +322,9 @@ img{
 
 .icong{
   display: inline-block;
-  /*margin-left: 25px;*/
+  margin-left: 25px;
   font-size: large;
-  text-align: center;
-  width: 100%;
+  position:relative;
 }
 
 /*css file for IIIT sonepat*/
