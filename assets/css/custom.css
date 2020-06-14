@@ -265,42 +265,11 @@ font-size: 80px;
 
 /*===============================Css for Guwahati placement page==============================*/
 
-#centered{
-    text-align: center;
-    padding: 18px;
-    font-weight:bold ;
-    font-size:28px;
-}
 
-#left{
-    text-align: left;
-    color:lightseagreen;
-    font-weight:bold ;
-    padding: 18px;
-    font-size: 26px;
-}
-
-#place{
-  text-align: center;
-  font-size:26px;
-  font-weight:bold ;
-}
-
-#centered1{
-    text-align: left;
-    padding: 15px;
-    font-weight:bold ;
-    font-size:19px;
-}
-
-#left1{
-    text-align: left;
-    padding: 15px;
-    font-weight:bold ;
-}
 
 #para{
     /*border: 1px solid green;*/
+    border: 1px solid white;
     padding-left: 36px;
     padding-right: 36px;
     font-style: arial;
@@ -337,8 +306,9 @@ img{
 }
 
 #sh2{
-  font-size: 25px;
+  font-size: 28px;
   padding-left: 26px;
+  padding-top: 20px;
 }
 
 #sh1{
