@@ -267,12 +267,12 @@ font-size: 80px;
 
 
 
-#p{
+.p{
     /*border: 1px solid green;*/
    
     font-family: 'Merriweather Sans', sans-serif;
-    font-size: 25px;
-    margin-left: 10%;
+    font-size: 27px;
+    margin-left: 2%;
 }
 
 
@@ -304,7 +304,7 @@ img{
   text-shadow: 2px 2px 4px #c0b6b6;
   color: black;
   font-family: 'Open Sans', sans-serif;
-  margin-left: 4%;
+  margin-left: 1%;
 
 }
 
