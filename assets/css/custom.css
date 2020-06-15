@@ -331,7 +331,7 @@ img{
 }
 
 hr.new1{
-  border: 1px solid orange;
+  border: 1px solid rgb(255, 0, 0);
   width:60%;
   margin-left:35px;
   
@@ -349,11 +349,15 @@ hr.new1{
 
 #head1{
     color:#f5f5f5; 
+    font-family: 'Noto Serif', serif;
 }
 #sh1{
   color:#f5f5f5;
 }
 
+.bg{
+  background-color: rgb(195, 252, 233);
+}
 
 /* #icong{
   display: inline-block;
