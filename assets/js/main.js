@@ -431,7 +431,7 @@ let myChart1 = document.getElementById('myChart1').getContext('2d');
                         7
                     ],
                     //backgroundColor:'green',
-                    backgroundColor:"8B008B",
+                    backgroundColor:"#8B008B",
                     boderWidth:4,
                     borderColor:"#777",
                     hoverBorderWidth:2,
@@ -482,7 +482,7 @@ let myChart1 = document.getElementById('myChart1').getContext('2d');
                        17
                     ],
                     //backgroundColor:'green',
-                    backgroundColor:"4B0082",
+                    backgroundColor:"#4B0082",
                     boderWidth:4,
                     borderColor:"#777",
                     hoverBorderWidth:2,
