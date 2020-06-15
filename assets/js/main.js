@@ -208,7 +208,7 @@ let myChart1 = document.getElementById('myChart1').getContext('2d');
                         20
                     ],
                     //backgroundColor:'green',
-                    backgroundColor:'#1E90FF',
+                    backgroundColor:'#8B008B',
                     boderWidth:4,
                     borderColor:"#777",
                     hoverBorderWidth:2,
