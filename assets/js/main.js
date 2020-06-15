@@ -162,7 +162,7 @@ let myChart1 = document.getElementById('myChart1').getContext('2d');
                         59
                     ],
                     //backgroundColor:'green',
-                    backgroundColor:'#FFC0CB'	,
+                    backgroundColor:'#00CED1'	,
                     boderWidth:4,
                     borderColor:"#777",
                     hoverBorderWidth:2,
@@ -177,7 +177,7 @@ let myChart1 = document.getElementById('myChart1').getContext('2d');
                         49,
                         60
                     ],
-                    backgroundColor:'#FFB6C1',
+                    backgroundColor:'#0000CD',
                     boderWidth:4,
                     borderColor:"#777",
                     hoverBorderWidth:2,
@@ -193,7 +193,7 @@ let myChart1 = document.getElementById('myChart1').getContext('2d');
                         35
                     ],
                     //backgroundColor:'green',
-                    backgroundColor:'#FF69B4'	,
+                    backgroundColor:'#000080'	,
                     boderWidth:4,
                     borderColor:"#777",
                     hoverBorderWidth:2,
@@ -208,7 +208,7 @@ let myChart1 = document.getElementById('myChart1').getContext('2d');
                         20
                     ],
                     //backgroundColor:'green',
-                    backgroundColor:'#FF1493',
+                    backgroundColor:'#1E90FF',
                     boderWidth:4,
                     borderColor:"#777",
                     hoverBorderWidth:2,
@@ -225,7 +225,7 @@ let myChart1 = document.getElementById('myChart1').getContext('2d');
                        1
                     ],
                     //backgroundColor:'green',
-                    backgroundColor:'#DB7093',
+                    backgroundColor:'#00BFFF',
                     boderWidth:4,
                     borderColor:"#777",
                     hoverBorderWidth:2,
@@ -242,7 +242,7 @@ let myChart1 = document.getElementById('myChart1').getContext('2d');
                        10.1
                     ],
                     //backgroundColor:'green',
-                    backgroundColor:'#C71585',
+                    backgroundColor:'#1E90FF',
                     boderWidth:4,
                     borderColor:"#777",
                     hoverBorderWidth:2,
@@ -258,7 +258,7 @@ let myChart1 = document.getElementById('myChart1').getContext('2d');
                        56
                     ],
                     //backgroundColor:'green',
-                    backgroundColor:"red",
+                    backgroundColor:"#4B0082",
                     boderWidth:4,
                     borderColor:"#777",
                     hoverBorderWidth:2,
