@@ -162,7 +162,7 @@ let myChart1 = document.getElementById('myChart1').getContext('2d');
                         59
                     ],
                     //backgroundColor:'green',
-                    backgroundColor:"green",
+                    backgroundColor:#FFC0CB	,
                     boderWidth:4,
                     borderColor:"#777",
                     hoverBorderWidth:2,
@@ -177,7 +177,7 @@ let myChart1 = document.getElementById('myChart1').getContext('2d');
                         49,
                         60
                     ],
-                    backgroundColor:'orange',
+                    backgroundColor:	#FFB6C1,
                     boderWidth:4,
                     borderColor:"#777",
                     hoverBorderWidth:2,
@@ -193,7 +193,7 @@ let myChart1 = document.getElementById('myChart1').getContext('2d');
                         35
                     ],
                     //backgroundColor:'green',
-                    backgroundColor:"blue",
+                    backgroundColor:#FF69B4	,
                     boderWidth:4,
                     borderColor:"#777",
                     hoverBorderWidth:2,
@@ -208,7 +208,7 @@ let myChart1 = document.getElementById('myChart1').getContext('2d');
                         20
                     ],
                     //backgroundColor:'green',
-                    backgroundColor:"Yellow",
+                    backgroundColor:#FF1493,
                     boderWidth:4,
                     borderColor:"#777",
                     hoverBorderWidth:2,
@@ -225,7 +225,7 @@ let myChart1 = document.getElementById('myChart1').getContext('2d');
                        1
                     ],
                     //backgroundColor:'green',
-                    backgroundColor:"black",
+                    backgroundColor:#DB7093,
                     boderWidth:4,
                     borderColor:"#777",
                     hoverBorderWidth:2,
@@ -242,7 +242,7 @@ let myChart1 = document.getElementById('myChart1').getContext('2d');
                        10.1
                     ],
                     //backgroundColor:'green',
-                    backgroundColor:"purple",
+                    backgroundColor:"#C71585,
                     boderWidth:4,
                     borderColor:"#777",
                     hoverBorderWidth:2,
