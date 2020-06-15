@@ -359,6 +359,14 @@ hr.new1{
   background-color: rgb(195, 252, 233);
 }
 
+.st{
+ 
+    width: 100%; height: 2px;
+    border-style: solid;
+    border-color: white;
+    background-color: brown;
+
+}
 /* #icong{
   display: inline-block;
   margin-left: 25px;
