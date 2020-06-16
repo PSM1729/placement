@@ -293,7 +293,7 @@ p::first-letter{
   filter: drop-shadow(5px 5px 5px rgb(155, 150, 150)); 
   padding:28px;
   margin-left:auto;
-/*   float:left; */
+  float:left; 
   
 }
 
