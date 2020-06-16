@@ -270,6 +270,7 @@ let myChart1 = document.getElementById('myChart1').getContext('2d');
             },
             options:{
               responsive:true,
+              maintainAspectRatio:false,
                 title:{
                 display:true,
                 text:"Placement Status for the year 2018-19",
@@ -337,6 +338,7 @@ let myChart1 = document.getElementById('myChart1').getContext('2d');
         },
         options:{
           responsive:true,
+          maintainAspectRatio:false,
             title:{
             display:true,
             text:"Percentage of students placed in the year 2018-19",
@@ -496,6 +498,7 @@ let myChart1 = document.getElementById('myChart1').getContext('2d');
             },
             options:{
               responsive:true,
+              maintainAspectRatio:false,
                 title:{
                 display:true,
                 text:"Placement Status for the year 2017-18",
@@ -566,6 +569,7 @@ let myChart1 = document.getElementById('myChart1').getContext('2d');
         },
         options:{
           responsive:true,
+          maintainAspectRatio:false,
             title:{
             display:true,
             text:"Percentage of students placed in the year 2017-18",
