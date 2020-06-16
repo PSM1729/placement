@@ -357,8 +357,9 @@ hr.new1{
 
 .bg{
   background-color: rgb(195, 252, 233);
+  box-shadow: 3px 3px #a7a4a4
 }
-
+/*
 .st{
  
     width: 100%; height: 2px;
