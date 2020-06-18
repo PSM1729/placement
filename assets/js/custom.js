@@ -1,3 +1,22 @@
+// For the slider used in the main page
+var swiper = new Swiper('.swiper-container', {
+  effect: 'coverflow',
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView: 'auto',
+  coverflowEffect: {
+    rotate: 40,
+    stretch: 0,
+    depth: 100,
+    modifier: 1,
+    slideShadows : true,
+  },
+  pagination: {
+    el: '.swiper-pagination',
+  },
+});
+
+
 // ====================== Image grid ============== //
 
 // Get the elements with class="column"
@@ -40,3 +59,4 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " active";
   });
 }
+
